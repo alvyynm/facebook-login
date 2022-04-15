@@ -83,6 +83,36 @@ img {
   margin-right: 3em;
 }
 
+.facebook-form {
+  border: 1px solid rgb(221, 215, 215);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 12px;
+  text-align: center;
+}
+
 a {
   text-decoration: none;
+}
+
+input[type] {
+  width: 300px;
+  padding: 12px;
+  margin: 5px ;
+  border-radius: 5px;
+}
+
+button {
+  margin: 5px ;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+hr {
+  margin: 5px;
+  border: 0.5px solid rgb(242, 237, 237);
+}
+
+input[type="submit"] {
+  background-color: #1877F2;
+  color: white;
 }
