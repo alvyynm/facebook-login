@@ -82,3 +82,7 @@ img {
 .facebook-about {
   margin-right: 3em;
 }
+
+a {
+  text-decoration: none;
+}
