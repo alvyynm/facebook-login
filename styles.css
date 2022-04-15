@@ -54,3 +54,31 @@
   }
 
   /*BODY STYLING STARTS*/
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  margin: 10em;
+}
+
+.parent-container > .facebook-about {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+img {
+  max-width: 300px;
+  margin-left: -28px;
+}
+
+.facebook-about, .facebook-form {
+  max-width: 540px;
+}
+
+.facebook-about {
+  margin-right: 3em;
+}
