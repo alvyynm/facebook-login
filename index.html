@@ -18,20 +18,20 @@
         <div class="form">
             <div class="facebook-form">
 
-                <form action="/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjUwMTcyNDk4LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D">
-                    <input type="email" name="email" id="email" placeholder="Email address or phone number"> <br>
-                    <input type="password" name="pwd" id="pwd" placeholder="Password" required><br>
-                    <input type="submit" value="Log In"> <br>
+                <form action="/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjUwMTcyNDk4LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D" method="post">
+                    <input type="email" name="email" id="email" data-testid="royal_email" placeholder="Email address or phone number"> <br>
+                    <input type="password" name="pass" id="pass" placeholder="Password" data-testid="royal_pass" required><br>
+                    <input type="submit" value="Log In" data-testid="royal_login_button" name="login"> <br>
                     <label for="pwd-reset"> <a href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjQ5OTY3OTY0LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login">Forgotten password?</a> </label> <br>
                     <hr>
-                    <button>
+                    <button name="login" id="u_0_d_SQ" data-testid="open-registration-form-button">
                         <a href="#">Create New Account</a>
                     </button>
                 </form>
 
             </div>
             <div>
-                <p><b><a href="#">Create a Page</a></b> for a celebrity, brand or business.</p>
+                <p><b><a href="/pages/create/?ref_type=registration_form">Create a Page</a></b> for a celebrity, brand or business.</p>
             </div>
         </div>
 
